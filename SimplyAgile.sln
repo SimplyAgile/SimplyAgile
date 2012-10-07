@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile", "SimplyAgile\SimplyAgile.csproj", "{02C5BFA3-E241-449B-B165-64E18EBB934A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile.Tests", "SimplyAgile.Tests\SimplyAgile.Tests.csproj", "{D984A330-5B1D-4167-BDA7-1073A95A885D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF14162D-E11F-4CBA-AA89-033E528FF3AE}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		README.md = README.md
+		SimplyAgile.vsmdi = SimplyAgile.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EECCF945-B1CB-4764-9DAA-9893A81BFEBF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SimplyAgile.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C5BFA3-E241-449B-B165-64E18EBB934A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C5BFA3-E241-449B-B165-64E18EBB934A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C5BFA3-E241-449B-B165-64E18EBB934A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C5BFA3-E241-449B-B165-64E18EBB934A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
