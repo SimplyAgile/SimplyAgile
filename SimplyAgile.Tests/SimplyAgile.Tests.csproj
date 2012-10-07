@@ -50,24 +50,42 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\My dashboard.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>My dashboard.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\User login.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>User login.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\User Registration.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>User Registration.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\MyDashboardSteps.cs" />
+    <Compile Include="Steps\UserAthenticationSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\My dashboard.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>My dashboard.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Features\User login.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>User login.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\User Registration.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>User Registration.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Steps\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
