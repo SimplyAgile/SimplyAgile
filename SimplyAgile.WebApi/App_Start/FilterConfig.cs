@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace SimplyAgile.Web
+namespace SimplyAgile.WebApi
 {
     public class FilterConfig
     {

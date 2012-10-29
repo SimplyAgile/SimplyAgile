@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace SimplyAgile.Web
+namespace SimplyAgile.WebApi
 {
     public static class WebApiConfig
     {

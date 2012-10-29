@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile", "SimplyAgile\SimplyAgile.csproj", "{02C5BFA3-E241-449B-B165-64E18EBB934A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile.Tests", "SimplyAgile.Tests\SimplyAgile.Tests.csproj", "{D984A330-5B1D-4167-BDA7-1073A95A885D}"
@@ -20,7 +20,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EECCF9
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile.Web", "SimplyAgile.Web\SimplyAgile.Web.csproj", "{821F806F-FA50-4772-B4F4-8DC01519C36D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyAgile.WebApi", "SimplyAgile.WebApi\SimplyAgile.WebApi.csproj", "{72836292-E9FF-403B-95E3-C4B22195C8A5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "http://localhost:58827", "{1943A103-4D1B-4EF1-8B00-B670C1996624}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58827"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58827\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58827"
+		Release.AspNetCompiler.PhysicalPath = "WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58827\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -39,10 +61,14 @@ Global
 		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D984A330-5B1D-4167-BDA7-1073A95A885D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{821F806F-FA50-4772-B4F4-8DC01519C36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{821F806F-FA50-4772-B4F4-8DC01519C36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{821F806F-FA50-4772-B4F4-8DC01519C36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{821F806F-FA50-4772-B4F4-8DC01519C36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72836292-E9FF-403B-95E3-C4B22195C8A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72836292-E9FF-403B-95E3-C4B22195C8A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72836292-E9FF-403B-95E3-C4B22195C8A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72836292-E9FF-403B-95E3-C4B22195C8A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1943A103-4D1B-4EF1-8B00-B670C1996624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1943A103-4D1B-4EF1-8B00-B670C1996624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1943A103-4D1B-4EF1-8B00-B670C1996624}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1943A103-4D1B-4EF1-8B00-B670C1996624}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

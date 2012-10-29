@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace SimplyAgile.Web.Controllers
+namespace SimplyAgile.WebApi.Controllers
 {
     public class ValuesController : ApiController
     {

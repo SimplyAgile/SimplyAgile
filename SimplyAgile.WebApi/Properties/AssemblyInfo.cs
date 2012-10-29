@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SimplyAgile.Web")]
+[assembly: AssemblyTitle("SimplyAgile.WebApi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SimplyAgile.Web")]
+[assembly: AssemblyProduct("SimplyAgile.WebApi")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ed857763-ac0b-4c96-9d1b-ccc44333f6a4")]
+[assembly: Guid("b9382d29-7458-434b-ba17-cca8d4bcdd0e")]
 
 // Version information for an assembly consists of the following four values:
 //
